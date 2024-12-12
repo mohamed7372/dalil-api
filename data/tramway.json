@@ -1,0 +1,60 @@
+[
+    {
+        "name": "Tramway Algiers Line",
+        "price": 30,
+        "type": "TRAMWAY",
+        "lineNumber": "TAL2",
+        "capacity": 400,
+        "schedules": [
+            {
+                "station": "Ruisseau",
+                "latitude": 36.7485,
+                "longitude": 3.0794,
+                "arrivalTime": "2024-01-01T08:00:00Z",
+                "departureTime": "2024-01-01T08:05:00Z"
+            },
+            {
+                "station": "Les Fusillés",
+                "latitude": 36.749,
+                "longitude": 3.08,
+                "arrivalTime": "2024-01-01T08:10:00Z",
+                "departureTime": "2024-01-01T08:15:00Z"
+            },
+            {
+                "station": "Tripoli-Thaalibia",
+                "latitude": 36.7495,
+                "longitude": 3.081,
+                "arrivalTime": "2024-01-01T08:20:00Z",
+                "departureTime": "2024-01-01T08:25:00Z"
+            },
+            {
+                "station": "Tripoli-Mosquée",
+                "latitude": 36.75,
+                "longitude": 3.082,
+                "arrivalTime": "2024-01-01T08:30:00Z",
+                "departureTime": "2024-01-01T08:35:00Z"
+            },
+            {
+                "station": "Tripoli-Hamadache",
+                "latitude": 36.7505,
+                "longitude": 3.083,
+                "arrivalTime": "2024-01-01T08:40:00Z",
+                "departureTime": "2024-01-01T08:45:00Z"
+            },
+            {
+                "station": "Tripoli-Maqqaria",
+                "latitude": 36.751,
+                "longitude": 3.084,
+                "arrivalTime": "2024-01-01T08:50:00Z",
+                "departureTime": "2024-01-01T08:55:00Z"
+            },
+            {
+                "station": "Caroubier",
+                "latitude": 36.7515,
+                "longitude": 3.085,
+                "arrivalTime": "2024-01-01T09:00:00Z",
+                "departureTime": "2024-01-01T09:05:00Z"
+            }
+        ]
+    }
+]

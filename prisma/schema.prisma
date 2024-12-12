@@ -1,0 +1,76 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+enum TransportType {
+  SUBWAY
+  TRAMWAY
+  TRAIN
+  BUS
+}
+
+model Transport {
+  id          Int       @id @default(autoincrement())
+  name        String
+  price  Float     
+  type TransportType 
+  transportInstances TransportInstance[]
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+}
+
+model TransportInstance {
+  id           Int       @id @default(autoincrement())
+  lineNumber   String
+  capacity     Int
+  transportId Int
+  transport Transport @relation(fields: [transportId], references: [id])
+  schedules    Schedule[]
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+}
+
+model Schedule {
+  id              Int       @id @default(autoincrement())
+  station         String
+  latitude        Float
+  longitude       Float
+  arrivalTime     DateTime
+  departureTime   DateTime
+  transportInstanceId Int  
+  transportInstance TransportInstance @relation(fields: [transportInstanceId], references: [id])
+  suggests Suggest[]
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+}
+
+model RouteSegment {
+  id             Int       @id @default(autoincrement())
+  startStation   String
+  endStation     String
+  startLat       Float
+  startLon       Float
+  endLat         Float
+  endLon         Float
+  travelTime     Int        // Travel time in minutes
+  ticketPrice    Float      // Ticket price for this segment
+  suggests Suggest[]
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+}
+
+model Suggest {
+  id             Int       @id @default(autoincrement())
+  scheduleId Int  
+  step Int @default(0)
+  schedule Schedule @relation(fields: [scheduleId], references: [id])
+  routeSegementId Int  
+  routeSegement RouteSegment @relation(fields: [routeSegementId], references: [id])
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+}

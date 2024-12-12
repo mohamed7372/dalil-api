@@ -1,0 +1,74 @@
+[
+    {
+        "name": "215",
+        "price": 50,
+        "type": "SUBWAY",
+        "lineNumber": "1",
+        "capacity": 200,
+        "schedules": [
+            {
+                "station": "Tafourah - Grande Poste",
+                "latitude": 36.7703,
+                "longitude": 3.0585,
+                "arrivalTime": "2024-01-01T06:20:00Z",
+                "departureTime": "2024-01-01T06:25:00Z"
+            },
+            {
+                "station": "Khelifa Boukhalfa",
+                "latitude": 36.7646,
+                "longitude": 3.0572,
+                "arrivalTime": "2024-01-01T06:30:00Z",
+                "departureTime": "2024-01-01T06:35:00Z"
+            },
+            {
+                "station": "1er Mai",
+                "latitude": 36.7589,
+                "longitude": 3.0508,
+                "arrivalTime": "2024-01-01T06:40:00Z",
+                "departureTime": "2024-01-01T06:45:00Z"
+            },
+            {
+                "station": "Aïssat Idir",
+                "latitude": 36.7555,
+                "longitude": 3.0452,
+                "arrivalTime": "2024-01-01T06:50:00Z",
+                "departureTime": "2024-01-01T06:55:00Z"
+            },
+            {
+                "station": "Hamma",
+                "latitude": 36.7489,
+                "longitude": 3.0438,
+                "arrivalTime": "2024-01-01T07:00:00Z",
+                "departureTime": "2024-01-01T07:05:00Z"
+            },
+            {
+                "station": "Jardin d'essai",
+                "latitude": 36.7445,
+                "longitude": 3.0412,
+                "arrivalTime": "2024-01-01T07:10:00Z",
+                "departureTime": "2024-01-01T07:15:00Z"
+            },
+            {
+                "station": "Les Fusillés",
+                "latitude": 36.741,
+                "longitude": 3.0388,
+                "arrivalTime": "2024-01-01T07:20:00Z",
+                "departureTime": "2024-01-01T07:25:00Z"
+            },
+            {
+                "station": "Cité Amirouche",
+                "latitude": 36.7378,
+                "longitude": 3.035,
+                "arrivalTime": "2024-01-01T07:30:00Z",
+                "departureTime": "2024-01-01T07:35:00Z"
+            },
+            {
+                "station": "Cité Mer et Soleil",
+                "latitude": 36.7339,
+                "longitude": 3.0307,
+                "arrivalTime": "2024-01-01T07:40:00Z",
+                "departureTime": "2024-01-01T07:45:00Z"
+            }
+        ]
+    }
+]

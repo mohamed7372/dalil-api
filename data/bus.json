@@ -1,0 +1,60 @@
+[
+    {
+        "name": "ETUSA Bus Line 100",
+        "price": 20,
+        "type": "BUS",
+        "lineNumber": "100",
+        "capacity": 80,
+        "schedules": [
+            {
+                "station": "Place des Martyrs",
+                "latitude": 36.7791,
+                "longitude": 3.0586,
+                "arrivalTime": "2024-01-01T06:00:00Z",
+                "departureTime": "2024-01-01T06:05:00Z"
+            },
+            {
+                "station": "Tafourah (Grande Poste)",
+                "latitude": 36.7703,
+                "longitude": 3.0585,
+                "arrivalTime": "2024-01-01T06:15:00Z",
+                "departureTime": "2024-01-01T06:20:00Z"
+            },
+            {
+                "station": "Didouche Mourad",
+                "latitude": 36.7646,
+                "longitude": 3.0572,
+                "arrivalTime": "2024-01-01T06:30:00Z",
+                "departureTime": "2024-01-01T06:35:00Z"
+            },
+            {
+                "station": "El Biar",
+                "latitude": 36.7591,
+                "longitude": 3.0365,
+                "arrivalTime": "2024-01-01T06:45:00Z",
+                "departureTime": "2024-01-01T06:50:00Z"
+            },
+            {
+                "station": "Hydra",
+                "latitude": 36.7488,
+                "longitude": 3.0192,
+                "arrivalTime": "2024-01-01T07:00:00Z",
+                "departureTime": "2024-01-01T07:05:00Z"
+            },
+            {
+                "station": "Ben Aknoun",
+                "latitude": 36.7378,
+                "longitude": 3.0045,
+                "arrivalTime": "2024-01-01T07:15:00Z",
+                "departureTime": "2024-01-01T07:20:00Z"
+            },
+            {
+                "station": "Dely Ibrahim",
+                "latitude": 36.7446,
+                "longitude": 2.9598,
+                "arrivalTime": "2024-01-01T07:30:00Z",
+                "departureTime": "2024-01-01T07:35:00Z"
+            }
+        ]
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "name": "64",
+        "price": 80,
+        "type": "TRAIN",
+        "lineNumber": "1",
+        "capacity": 500,
+        "schedules": [
+            {
+                "station": "Alger",
+                "latitude": 36.7528,
+                "longitude": 3.0588,
+                "arrivalTime": "2024-01-01T06:00:00Z",
+                "departureTime": "2024-01-01T06:05:00Z"
+            },
+            {
+                "station": "Agha",
+                "latitude": 36.7532,
+                "longitude": 3.0615,
+                "arrivalTime": "2024-01-01T06:10:00Z",
+                "departureTime": "2024-01-01T06:15:00Z"
+            },
+            {
+                "station": "Les Ateliers",
+                "latitude": 36.754,
+                "longitude": 3.063,
+                "arrivalTime": "2024-01-01T06:20:00Z",
+                "departureTime": "2024-01-01T06:25:00Z"
+            },
+            {
+                "station": "Hussein Dey",
+                "latitude": 36.756,
+                "longitude": 3.065,
+                "arrivalTime": "2024-01-01T06:30:00Z",
+                "departureTime": "2024-01-01T06:35:00Z"
+            },
+            {
+                "station": "Caroubier",
+                "latitude": 36.757,
+                "longitude": 3.066,
+                "arrivalTime": "2024-01-01T06:40:00Z",
+                "departureTime": "2024-01-01T06:45:00Z"
+            }
+        ]
+    }
+]
