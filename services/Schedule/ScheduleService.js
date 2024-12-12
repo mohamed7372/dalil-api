@@ -76,9 +76,11 @@ const createRouteSegmentWithSuggests = async ({
     let suggestsRes = [];
     for (let i = 0; i < suggests.length; i++) {
         const suggest = await prisma.suggest.create({
-            scheduleId: parseInt(suggests[i]),
-            step: idx + 1,
-            routeSegementId: parseInt(routeSegments.id),
+            data: {
+                scheduleId: parseInt(suggests[i]),
+                step: i + 1,
+                routeSegementId: parseInt(routeSegments.id),
+            },
         });
 
         suggestsRes.push(suggest);

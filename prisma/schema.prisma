@@ -53,10 +53,10 @@ model RouteSegment {
   id             Int       @id @default(autoincrement())
   startStation   String
   endStation     String
-  startLat       Float
-  startLon       Float
-  endLat         Float
-  endLon         Float
+  startLat       String
+  startLon       String
+  endLat         String
+  endLon         String
   travelTime     Int        // Travel time in minutes
   ticketPrice    Float      // Ticket price for this segment
   suggests Suggest[]
