@@ -1,60 +1,1453 @@
 [
     {
-        "name": "ETUSA Bus Line 100",
-        "price": 20,
+        "name": "1",
+        "price": 25,
         "type": "BUS",
-        "lineNumber": "100",
-        "capacity": 80,
+        "lineNumber": "1",
+        "capacity": 54,
         "schedules": [
             {
-                "station": "Place des Martyrs",
-                "latitude": 36.7791,
-                "longitude": 3.0586,
-                "arrivalTime": "2024-01-01T06:00:00Z",
-                "departureTime": "2024-01-01T06:05:00Z"
+                "station": "El Harrach Centre",
+                "latitude": 36.7136,
+                "longitude": 3.1580,
+                "arrivalTime": "2024-01-01T06:20:00Z",
+                "departureTime": "2024-01-01T06:25:00Z"
             },
             {
-                "station": "Tafourah (Grande Poste)",
-                "latitude": 36.7703,
-                "longitude": 3.0585,
-                "arrivalTime": "2024-01-01T06:15:00Z",
-                "departureTime": "2024-01-01T06:20:00Z"
-            },
-            {
-                "station": "Didouche Mourad",
-                "latitude": 36.7646,
-                "longitude": 3.0572,
+                "station": "Haï El Badr",
+                "latitude": 36.7203,
+                "longitude": 3.1295,
                 "arrivalTime": "2024-01-01T06:30:00Z",
                 "departureTime": "2024-01-01T06:35:00Z"
             },
             {
-                "station": "El Biar",
-                "latitude": 36.7591,
-                "longitude": 3.0365,
-                "arrivalTime": "2024-01-01T06:45:00Z",
-                "departureTime": "2024-01-01T06:50:00Z"
+                "station": "Cité Mer et Soleil",
+                "latitude": 36.7280,
+                "longitude": 3.1000,
+                "arrivalTime": "2024-01-01T06:40:00Z",
+                "departureTime": "2024-01-01T06:45:00Z"
             },
             {
-                "station": "Hydra",
-                "latitude": 36.7488,
-                "longitude": 3.0192,
+                "station": "Cité Amirouche",
+                "latitude": 36.7315,
+                "longitude": 3.0820,
+                "arrivalTime": "2024-01-01T06:50:00Z",
+                "departureTime": "2024-01-01T06:55:00Z"
+            },
+            {
+                "station": "Les Fusillés",
+                "latitude": 36.7448,
+                "longitude": 3.0635,
                 "arrivalTime": "2024-01-01T07:00:00Z",
                 "departureTime": "2024-01-01T07:05:00Z"
             },
             {
-                "station": "Ben Aknoun",
-                "latitude": 36.7378,
-                "longitude": 3.0045,
+                "station": "Aïssat Idir",
+                "latitude": 36.7533,
+                "longitude": 3.0659,
+                "arrivalTime": "2024-01-01T07:10:00Z",
+                "departureTime": "2024-01-01T07:15:00Z"
+            }
+        ]
+    }
+,
+
+    {
+        "name": "3",
+        "price": 30,
+        "type": "BUS",
+        "lineNumber": "3",
+        "capacity": 54,
+        "schedules": [
+            {
+                "station": "Bouzaréah (Chevalley)",
+                "latitude": 36.7699,
+                "longitude": 3.0254,
+                "arrivalTime": "2024-01-01T06:15:00Z",
+                "departureTime": "2024-01-01T06:20:00Z"
+            },
+            {
+                "station": "Dely Ibrahim",
+                "latitude": 36.7477,
+                "longitude": 3.0304,
+                "arrivalTime": "2024-01-01T06:25:00Z",
+                "departureTime": "2024-01-01T06:30:00Z"
+            },
+            {
+                "station": "Beni Messous",
+                "latitude": 36.7524,
+                "longitude": 2.9744,
+                "arrivalTime": "2024-01-01T06:35:00Z",
+                "departureTime": "2024-01-01T06:40:00Z"
+            },
+            {
+                "station": "Chéraga (Bouchaoui)",
+                "latitude": 36.7383,
+                "longitude": 2.9449,
+                "arrivalTime": "2024-01-01T06:45:00Z",
+                "departureTime": "2024-01-01T06:50:00Z"
+            },
+            {
+                "station": "Souidania",
+                "latitude": 36.7115,
+                "longitude": 2.8625,
+                "arrivalTime": "2024-01-01T06:55:00Z",
+                "departureTime": "2024-01-01T07:00:00Z"
+            }
+        ]
+    },
+    {
+        "name": "4",
+        "price": 30,
+        "type": "BUS",
+        "lineNumber": "4",
+        "capacity": 54,
+        "schedules": [
+            {
+                "station": "Sidi M'Hamed",
+                "latitude": 36.7525,
+                "longitude": 3.0419,
+                "arrivalTime": "2024-01-01T06:15:00Z",
+                "departureTime": "2024-01-01T06:20:00Z"
+            },
+            {
+                "station": "Belouizdad (Jardin d'Essai)",
+                "latitude": 36.7463,
+                "longitude": 3.0665,
+                "arrivalTime": "2024-01-01T06:25:00Z",
+                "departureTime": "2024-01-01T06:30:00Z"
+            },
+            {
+                "station": "Kouba",
+                "latitude": 36.7382,
+                "longitude": 3.0814,
+                "arrivalTime": "2024-01-01T06:35:00Z",
+                "departureTime": "2024-01-01T06:40:00Z"
+            },
+            {
+                "station": "1er Mai",
+                "latitude": 36.7501,
+                "longitude": 3.0589,
+                "arrivalTime": "2024-01-01T06:45:00Z",
+                "departureTime": "2024-01-01T06:50:00Z"
+            },
+            {
+                "station": "Place Aïssat Idir (à proximité)",
+                "latitude": 36.7545,
+                "longitude": 3.0620,
+                "arrivalTime": "2024-01-01T06:55:00Z",
+                "departureTime": "2024-01-01T07:00:00Z"
+            },
+            {
+                "station": "Hamma",
+                "latitude": 36.7466,
+                "longitude": 3.0724,
+                "arrivalTime": "2024-01-01T07:05:00Z",
+                "departureTime": "2024-01-01T07:10:00Z"
+            },
+            {
+                "station": "Jardin d'Essai",
+                "latitude": 36.7452,
+                "longitude": 3.0675,
                 "arrivalTime": "2024-01-01T07:15:00Z",
                 "departureTime": "2024-01-01T07:20:00Z"
             },
             {
-                "station": "Dely Ibrahim",
-                "latitude": 36.7446,
-                "longitude": 2.9598,
-                "arrivalTime": "2024-01-01T07:30:00Z",
-                "departureTime": "2024-01-01T07:35:00Z"
+                "station": "Les Fusillés",
+                "latitude": 36.7405,
+                "longitude": 3.0842,
+                "arrivalTime": "2024-01-01T07:25:00Z",
+                "departureTime": "2024-01-01T07:30:00Z"
+            },
+            {
+                "station": "Téléphérique d'El Madania (station Hamma)",
+                "latitude": 36.7461,
+                "longitude": 3.0722,
+                "arrivalTime": "2024-01-01T07:35:00Z",
+                "departureTime": "2024-01-01T07:40:00Z"
+            },
+            {
+                "station": "Téléphérique du Mémorial (station Jardin d'Essai)",
+                "latitude": 36.7469,
+                "longitude": 3.0690,
+                "arrivalTime": "2024-01-01T07:45:00Z",
+                "departureTime": "2024-01-01T07:50:00Z"
+            },
+            {
+                "station": "Téléphérique du Palais de la Culture (station Oued Kniss)",
+                "latitude": 36.7448,
+                "longitude": 3.0845,
+                "arrivalTime": "2024-01-01T07:55:00Z",
+                "departureTime": "2024-01-01T08:00:00Z"
             }
         ]
     }
+
+,
+    {
+        "name": "5",
+        "price": 40,
+        "type": "BUS",
+        "lineNumber": "5",
+        "capacity": 400,
+        "schedules": [
+            {
+                "station": "Place des Martyrs",
+                "latitude": 36.7813,
+                "longitude": 3.0635,
+                "arrivalTime": "2024-01-01T06:15:00Z",
+                "departureTime": "2024-01-01T06:20:00Z"
+            },
+            {
+                "station": "Tafourah - Grande Poste",
+                "latitude": 36.7765,
+                "longitude": 3.0586,
+                "arrivalTime": "2024-01-01T06:25:00Z",
+                "departureTime": "2024-01-01T06:30:00Z"
+            },
+            {
+                "station": "El Harrach Centre",
+                "latitude": 36.7323,
+                "longitude": 3.1032,
+                "arrivalTime": "2024-01-01T06:35:00Z",
+                "departureTime": "2024-01-01T06:40:00Z"
+            },
+            {
+                "station": "Gare d'Alger",
+                "latitude": 36.7777,
+                "longitude": 3.0606,
+                "arrivalTime": "2024-01-01T06:45:00Z",
+                "departureTime": "2024-01-01T06:50:00Z"
+            },
+            {
+                "station": "Gare de l'Agha",
+                "latitude": 36.7542,
+                "longitude": 3.0615,
+                "arrivalTime": "2024-01-01T06:55:00Z",
+                "departureTime": "2024-01-01T07:00:00Z"
+            },
+            {
+                "station": "Gare des Ateliers",
+                "latitude": 36.754,
+                "longitude": 3.063,
+                "arrivalTime": "2024-01-01T07:05:00Z",
+                "departureTime": "2024-01-01T07:10:00Z"
+            },
+            {
+                "station": "Gare du Caroubier",
+                "latitude": 36.757,
+                "longitude": 3.066,
+                "arrivalTime": "2024-01-01T07:15:00Z",
+                "departureTime": "2024-01-01T07:20:00Z"
+            },
+            {
+                "station": "Gare d'El Harrach",
+                "latitude": 36.7323,
+                "longitude": 3.1032,
+                "arrivalTime": "2024-01-01T07:25:00Z",
+                "departureTime": "2024-01-01T07:30:00Z"
+            }
+        ]
+    }
+,
+
+    {
+        "name": "6",
+        "price": 40,
+        "type": "BUS",
+        "lineNumber": "6",
+        "capacity": 400,
+        "schedules": [
+            {
+                "station": "Place des Martyrs",
+                "latitude": 36.7663,
+                "longitude": 3.0635,
+                "arrivalTime": "2024-01-01T06:15:00Z",
+                "departureTime": "2024-01-01T06:20:00Z"
+            },
+            {
+                "station": "Tafourah - Grande Poste",
+                "latitude": 36.7722,
+                "longitude": 3.0602,
+                "arrivalTime": "2024-01-01T06:25:00Z",
+                "departureTime": "2024-01-01T06:30:00Z"
+            },
+            {
+                "station": "1er Mai",
+                "latitude": 36.7568,
+                "longitude": 3.0630,
+                "arrivalTime": "2024-01-01T06:35:00Z",
+                "departureTime": "2024-01-01T06:40:00Z"
+            },
+            {
+                "station": "Place Aïssat Idir",
+                "latitude": 36.7480,
+                "longitude": 3.0603,
+                "arrivalTime": "2024-01-01T06:45:00Z",
+                "departureTime": "2024-01-01T06:50:00Z"
+            },
+            {
+                "station": "Hamma",
+                "latitude": 36.7473,
+                "longitude": 3.0672,
+                "arrivalTime": "2024-01-01T06:55:00Z",
+                "departureTime": "2024-01-01T07:00:00Z"
+            },
+            {
+                "station": "Jardin d'Essai",
+                "latitude": 36.7461,
+                "longitude": 3.0698,
+                "arrivalTime": "2024-01-01T07:05:00Z",
+                "departureTime": "2024-01-01T07:10:00Z"
+            },
+            {
+                "station": "Les Fusillés",
+                "latitude": 36.7436,
+                "longitude": 3.0735,
+                "arrivalTime": "2024-01-01T07:15:00Z",
+                "departureTime": "2024-01-01T07:20:00Z"
+            },
+            {
+                "station": "Gare d'Alger",
+                "latitude": 36.7574,
+                "longitude": 3.0597,
+                "arrivalTime": "2024-01-01T07:25:00Z",
+                "departureTime": "2024-01-01T07:30:00Z"
+            },
+            {
+                "station": "Gare de l'Agha",
+                "latitude": 36.7586,
+                "longitude": 3.0528,
+                "arrivalTime": "2024-01-01T07:35:00Z",
+                "departureTime": "2024-01-01T07:40:00Z"
+            },
+            {
+                "station": "Gare des Ateliers",
+                "latitude": 36.7555,
+                "longitude": 3.0565,
+                "arrivalTime": "2024-01-01T07:45:00Z",
+                "departureTime": "2024-01-01T07:50:00Z"
+            },
+            {
+                "station": "Téléphérique d'El Madania (station Hamma)",
+                "latitude": 36.7485,
+                "longitude": 3.0634,
+                "arrivalTime": "2024-01-01T07:55:00Z",
+                "departureTime": "2024-01-01T08:00:00Z"
+            },
+            {
+                "station": "Téléphérique du Mémorial (station Jardin d'Essai)",
+                "latitude": 36.7464,
+                "longitude": 3.0701,
+                "arrivalTime": "2024-01-01T08:05:00Z",
+                "departureTime": "2024-01-01T08:10:00Z"
+            },
+            {
+                "station": "Téléphérique du Palais de la Culture (station Oued Kniss)",
+                "latitude": 36.7592,
+                "longitude": 3.0812,
+                "arrivalTime": "2024-01-01T08:15:00Z",
+                "departureTime": "2024-01-01T08:20:00Z"
+            }
+        ]
+    },
+    {
+        "name": "8",
+        "price": 40,
+        "type": "BUS",
+        "lineNumber": "8",
+        "capacity": 400,
+        "schedules": [
+            {
+                "station": "Tafourah - Grande Poste",
+                "latitude": 36.7765,
+                "longitude": 3.0586,
+                "arrivalTime": "2024-01-01T06:15:00Z",
+                "departureTime": "2024-01-01T06:20:00Z"
+            },
+            {
+                "station": "Place des Martyrs",
+                "latitude": 36.7663,
+                "longitude": 3.0635,
+                "arrivalTime": "2024-01-01T06:25:00Z",
+                "departureTime": "2024-01-01T06:30:00Z"
+            },
+            {
+                "station": "Gare d'Alger",
+                "latitude": 36.7574,
+                "longitude": 3.0597,
+                "arrivalTime": "2024-01-01T06:35:00Z",
+                "departureTime": "2024-01-01T06:40:00Z"
+            },
+            {
+                "station": "Téléphérique de Notre-Dame d'Afrique (station Bologhine)",
+                "latitude": 36.7630,
+                "longitude": 3.0642,
+                "arrivalTime": "2024-01-01T06:45:00Z",
+                "departureTime": "2024-01-01T06:50:00Z"
+            }
+        ]
+    }
+,
+{
+    "name": "10",
+    "price": 40,
+    "type": "BUS",
+    "lineNumber": "10",
+    "capacity": 400,
+    "schedules": [
+        {
+            "station": "Sidi M'Hamed",
+            "latitude": 36.7574,
+            "longitude": 3.0581,
+            "arrivalTime": "2024-01-01T06:15:00Z",
+            "departureTime": "2024-01-01T06:20:00Z"
+        },
+        {
+            "station": "Alger-Centre",
+            "latitude": 36.7579,
+            "longitude": 3.0637,
+            "arrivalTime": "2024-01-01T06:25:00Z",
+            "departureTime": "2024-01-01T06:30:00Z"
+        },
+        {
+            "station": "El Biar",
+            "latitude": 36.7490,
+            "longitude": 3.0682,
+            "arrivalTime": "2024-01-01T06:35:00Z",
+            "departureTime": "2024-01-01T06:40:00Z"
+        },
+        {
+            "station": "Bouzaréah",
+            "latitude": 36.7545,
+            "longitude": 3.0695,
+            "arrivalTime": "2024-01-01T06:45:00Z",
+            "departureTime": "2024-01-01T06:50:00Z"
+        }
+    ]
+}
+,
+{
+    "name": "12",
+    "price": 40,
+    "type": "BUS",
+    "lineNumber": "12",
+    "capacity": 400,
+    "schedules": [
+        {
+            "station": "Casbah (Place des Martyrs)",
+            "latitude": 36.7765,
+            "longitude": 3.0635,
+            "arrivalTime": "2024-01-01T06:15:00Z",
+            "departureTime": "2024-01-01T06:20:00Z"
+        },
+        {
+            "station": "Bab El Oued",
+            "latitude": 36.7623,
+            "longitude": 3.0562,
+            "arrivalTime": "2024-01-01T06:25:00Z",
+            "departureTime": "2024-01-01T06:30:00Z"
+        },
+        {
+            "station": "Bologhine",
+            "latitude": 36.7635,
+            "longitude": 3.0572,
+            "arrivalTime": "2024-01-01T06:35:00Z",
+            "departureTime": "2024-01-01T06:40:00Z"
+        },
+        {
+            "station": "Raïs Hamidou",
+            "latitude": 36.7463,
+            "longitude": 3.0394,
+            "arrivalTime": "2024-01-01T06:45:00Z",
+            "departureTime": "2024-01-01T06:50:00Z"
+        },
+        {
+            "station": "El Hammamet",
+            "latitude": 36.7111,
+            "longitude": 3.0622,
+            "arrivalTime": "2024-01-01T06:55:00Z",
+            "departureTime": "2024-01-01T07:00:00Z"
+        },
+        {
+            "station": "Aïn Benian",
+            "latitude": 36.7333,
+            "longitude": 3.0035,
+            "arrivalTime": "2024-01-01T07:05:00Z",
+            "departureTime": "2024-01-01T07:10:00Z"
+        },
+        {
+            "station": "Chéraga",
+            "latitude": 36.7379,
+            "longitude": 2.9876,
+            "arrivalTime": "2024-01-01T07:15:00Z",
+            "departureTime": "2024-01-01T07:20:00Z"
+        },
+        {
+            "station": "Staoueli",
+            "latitude": 36.7281,
+            "longitude": 2.9574,
+            "arrivalTime": "2024-01-01T07:25:00Z",
+            "departureTime": "2024-01-01T07:30:00Z"
+        }
+    ]
+}
+,
+{
+    "name": "15",
+    "price": 40,
+    "type": "BUS",
+    "lineNumber": "15",
+    "capacity": 400,
+    "schedules": [
+        {
+            "station": "Sidi M'Hamed",
+            "latitude": 36.7574,
+            "longitude": 3.0581,
+            "arrivalTime": "2024-01-01T06:15:00Z",
+            "departureTime": "2024-01-01T06:20:00Z"
+        },
+        {
+            "station": "Alger-Centre (Grande Poste d'Alger)",
+            "latitude": 36.7650,
+            "longitude": 3.0596,
+            "arrivalTime": "2024-01-01T06:25:00Z",
+            "departureTime": "2024-01-01T06:30:00Z"
+        },
+        {
+            "station": "Tafourah - Grande Poste",
+            "latitude": 36.7765,
+            "longitude": 3.0586,
+            "arrivalTime": "2024-01-01T06:35:00Z",
+            "departureTime": "2024-01-01T06:40:00Z"
+        },
+        {
+            "station": "1er Mai",
+            "latitude": 36.7639,
+            "longitude": 3.0581,
+            "arrivalTime": "2024-01-01T06:45:00Z",
+            "departureTime": "2024-01-01T06:50:00Z"
+        }
+    ]
+}
+,
+{
+    "name": "16",
+    "price": 40,
+    "type": "BUS",
+    "lineNumber": "16",
+    "capacity": 400,
+    "schedules": [
+        {
+            "station": "Sidi M'Hamed (Musée du Bardo, Palais du Peuple)",
+            "latitude": 36.7574,
+            "longitude": 3.0581,
+            "arrivalTime": "2024-01-01T06:15:00Z",
+            "departureTime": "2024-01-01T06:20:00Z"
+        },
+        {
+            "station": "El Mouradia (Hôtel El Djazaïr)",
+            "latitude": 36.7577,
+            "longitude": 3.0589,
+            "arrivalTime": "2024-01-01T06:25:00Z",
+            "departureTime": "2024-01-01T06:30:00Z"
+        },
+        {
+            "station": "El Madania (Diar el Mahçoul)",
+            "latitude": 36.7625,
+            "longitude": 3.0610,
+            "arrivalTime": "2024-01-01T06:35:00Z",
+            "departureTime": "2024-01-01T06:40:00Z"
+        },
+        {
+            "station": "1er Mai",
+            "latitude": 36.7639,
+            "longitude": 3.0581,
+            "arrivalTime": "2024-01-01T06:45:00Z",
+            "departureTime": "2024-01-01T06:50:00Z"
+        },
+        {
+            "station": "Téléphérique d'El Madania (station El Madania, à proximité)",
+            "latitude": 36.7622,
+            "longitude": 3.0604,
+            "arrivalTime": "2024-01-01T06:55:00Z",
+            "departureTime": "2024-01-01T07:00:00Z"
+        }
+    ]
+}
+,
+{
+    "name": "18",
+    "price": 40,
+    "type": "BUS",
+    "lineNumber": "18",
+    "capacity": 400,
+    "schedules": [
+        {
+            "station": "Bachdjerrah",
+            "latitude": 36.7261,
+            "longitude": 3.2046,
+            "arrivalTime": "2024-01-01T06:15:00Z",
+            "departureTime": "2024-01-01T06:20:00Z"
+        },
+        {
+            "station": "Bachdjerrah - Tennis",
+            "latitude": 36.7284,
+            "longitude": 3.2080,
+            "arrivalTime": "2024-01-01T06:25:00Z",
+            "departureTime": "2024-01-01T06:30:00Z"
+        },
+        {
+            "station": "Haï El Badr",
+            "latitude": 36.7303,
+            "longitude": 3.2110,
+            "arrivalTime": "2024-01-01T06:35:00Z",
+            "departureTime": "2024-01-01T06:40:00Z"
+        },
+        {
+            "station": "Bourouba",
+            "latitude": 36.7250,
+            "longitude": 3.2075,
+            "arrivalTime": "2024-01-01T06:45:00Z",
+            "departureTime": "2024-01-01T06:50:00Z"
+        },
+        {
+            "station": "El Magharia",
+            "latitude": 36.7245,
+            "longitude": 3.2040,
+            "arrivalTime": "2024-01-01T06:55:00Z",
+            "departureTime": "2024-01-01T07:00:00Z"
+        },
+        {
+            "station": "Kouba (hôpital militaire d'Aïn Naâdja)",
+            "latitude": 36.7423,
+            "longitude": 3.1865,
+            "arrivalTime": "2024-01-01T07:05:00Z",
+            "departureTime": "2024-01-01T07:10:00Z"
+        }
+    ]
+}
+,
+{
+    "name": "19",
+    "price": 40,
+    "type": "BUS",
+    "lineNumber": "19",
+    "capacity": 400,
+    "schedules": [
+        {
+            "station": "Sidi M'Hamed",
+            "latitude": 36.7551,
+            "longitude": 3.0572,
+            "arrivalTime": "2024-01-01T06:15:00Z",
+            "departureTime": "2024-01-01T06:20:00Z"
+        },
+        {
+            "station": "Belouizdad",
+            "latitude": 36.7553,
+            "longitude": 3.0591,
+            "arrivalTime": "2024-01-01T06:25:00Z",
+            "departureTime": "2024-01-01T06:30:00Z"
+        },
+        {
+            "station": "Hussein Dey (Gare routière du Caroubier)",
+            "latitude": 36.7372,
+            "longitude": 3.0604,
+            "arrivalTime": "2024-01-01T06:35:00Z",
+            "departureTime": "2024-01-01T06:40:00Z"
+        },
+        {
+            "station": "Mohammadia",
+            "latitude": 36.7307,
+            "longitude": 3.0685,
+            "arrivalTime": "2024-01-01T06:45:00Z",
+            "departureTime": "2024-01-01T06:50:00Z"
+        },
+        {
+            "station": "Bab Ezzouar (USTHB)",
+            "latitude": 36.7320,
+            "longitude": 3.1075,
+            "arrivalTime": "2024-01-01T06:55:00Z",
+            "departureTime": "2024-01-01T07:00:00Z"
+        },
+        {
+            "station": "Aïssat Idir",
+            "latitude": 36.7325,
+            "longitude": 3.0618,
+            "arrivalTime": "2024-01-01T07:05:00Z",
+            "departureTime": "2024-01-01T07:10:00Z"
+        },
+        {
+            "station": "Gare des Ateliers",
+            "latitude": 36.7343,
+            "longitude": 3.0670,
+            "arrivalTime": "2024-01-01T07:15:00Z",
+            "departureTime": "2024-01-01T07:20:00Z"
+        },
+        {
+            "station": "Gare du Caroubier",
+            "latitude": 36.7399,
+            "longitude": 3.0602,
+            "arrivalTime": "2024-01-01T07:25:00Z",
+            "departureTime": "2024-01-01T07:30:00Z"
+        }
+    ]
+}
+,
+{
+    "name": "21",
+    "price": 40,
+    "type": "BUS",
+    "lineNumber": "21",
+    "capacity": 400,
+    "schedules": [
+        {
+            "station": "Bouzaréah",
+            "latitude": 36.7505,
+            "longitude": 3.0577,
+            "arrivalTime": "2024-01-01T06:00:00Z",
+            "departureTime": "2024-01-01T06:05:00Z"
+        },
+        {
+            "station": "Beni Messous (Sidi Youcef)",
+            "latitude": 36.7484,
+            "longitude": 3.0563,
+            "arrivalTime": "2024-01-01T06:15:00Z",
+            "departureTime": "2024-01-01T06:20:00Z"
+        }
+    ]
+}
+,
+{
+    "name": "27",
+    "price": 40,
+    "type": "BUS",
+    "lineNumber": "27",
+    "capacity": 400,
+    "schedules": [
+        {
+            "station": "Sidi M'Hamed",
+            "latitude": 36.7551,
+            "longitude": 3.0572,
+            "arrivalTime": "2024-01-01T06:00:00Z",
+            "departureTime": "2024-01-01T06:05:00Z"
+        },
+        {
+            "station": "Belouizdad (Jardin d'Essai)",
+            "latitude": 36.7523,
+            "longitude": 3.0715,
+            "arrivalTime": "2024-01-01T06:15:00Z",
+            "departureTime": "2024-01-01T06:20:00Z"
+        },
+        {
+            "station": "Kouba (hôpital militaire d'Aïn Naâdja)",
+            "latitude": 36.7518,
+            "longitude": 3.0420,
+            "arrivalTime": "2024-01-01T06:30:00Z",
+            "departureTime": "2024-01-01T06:35:00Z"
+        },
+        {
+            "station": "1er Mai",
+            "latitude": 36.7581,
+            "longitude": 3.0630,
+            "arrivalTime": "2024-01-01T06:45:00Z",
+            "departureTime": "2024-01-01T06:50:00Z"
+        },
+        {
+            "station": "Place Aïssat Idir (à proximité)",
+            "latitude": 36.7575,
+            "longitude": 3.0605,
+            "arrivalTime": "2024-01-01T06:55:00Z",
+            "departureTime": "2024-01-01T07:00:00Z"
+        },
+        {
+            "station": "Hamma",
+            "latitude": 36.7559,
+            "longitude": 3.0661,
+            "arrivalTime": "2024-01-01T07:05:00Z",
+            "departureTime": "2024-01-01T07:10:00Z"
+        },
+        {
+            "station": "Jardin d'Essai",
+            "latitude": 36.7523,
+            "longitude": 3.0715,
+            "arrivalTime": "2024-01-01T07:15:00Z",
+            "departureTime": "2024-01-01T07:20:00Z"
+        },
+        {
+            "station": "Les Fusillés",
+            "latitude": 36.7489,
+            "longitude": 3.0637,
+            "arrivalTime": "2024-01-01T07:25:00Z",
+            "departureTime": "2024-01-01T07:30:00Z"
+        },
+        {
+            "station": "Gare des Ateliers (à proximité)",
+            "latitude": 36.7494,
+            "longitude": 3.0704,
+            "arrivalTime": "2024-01-01T07:35:00Z",
+            "departureTime": "2024-01-01T07:40:00Z"
+        },
+        {
+            "station": "Téléphérique d'El Madania (station Hamma)",
+            "latitude": 36.7559,
+            "longitude": 3.0682,
+            "arrivalTime": "2024-01-01T07:45:00Z",
+            "departureTime": "2024-01-01T07:50:00Z"
+        },
+        {
+            "station": "Téléphérique du Mémorial (station Jardin d'Essai)",
+            "latitude": 36.7523,
+            "longitude": 3.0702,
+            "arrivalTime": "2024-01-01T07:55:00Z",
+            "departureTime": "2024-01-01T08:00:00Z"
+        },
+        {
+            "station": "Téléphérique du Palais de la Culture (station Oued Kniss)",
+            "latitude": 36.7554,
+            "longitude": 3.0676,
+            "arrivalTime": "2024-01-01T08:05:00Z",
+            "departureTime": "2024-01-01T08:10:00Z"
+        }
+    ]
+}
+,   
+{
+    "name": "32",
+    "price": 40,
+    "type": "BUS",
+    "lineNumber": "32",
+    "capacity": 400,
+    "schedules": [
+        {
+            "station": "Alger-Centre (Place Maurice Audin, faculté d'Alger, tunnel des Facultés, cathédrale du Sacré-Cœur)",
+            "latitude": 36.7468,
+            "longitude": 3.0861,
+            "arrivalTime": "2024-01-01T06:00:00Z",
+            "departureTime": "2024-01-01T06:05:00Z"
+        },
+        {
+            "station": "Sidi M'Hamed (Musée du Bardo, Palais du Peuple)",
+            "latitude": 36.7560,
+            "longitude": 3.0605,
+            "arrivalTime": "2024-01-01T06:15:00Z",
+            "departureTime": "2024-01-01T06:20:00Z"
+        },
+        {
+            "station": "El Mouradia (Hôtel El Djazaïr)",
+            "latitude": 36.7514,
+            "longitude": 3.0540,
+            "arrivalTime": "2024-01-01T06:30:00Z",
+            "departureTime": "2024-01-01T06:35:00Z"
+        },
+        {
+            "station": "El Madania (Diar el Mahçoul)",
+            "latitude": 36.7543,
+            "longitude": 3.0634,
+            "arrivalTime": "2024-01-01T06:45:00Z",
+            "departureTime": "2024-01-01T06:50:00Z"
+        },
+        {
+            "station": "Khelifa Boukhalfa (à proximité)",
+            "latitude": 36.7535,
+            "longitude": 3.0710,
+            "arrivalTime": "2024-01-01T06:55:00Z",
+            "departureTime": "2024-01-01T07:00:00Z"
+        },
+        {
+            "station": "Téléphérique d'El Madania (station El Madania, à proximité)",
+            "latitude": 36.7543,
+            "longitude": 3.0634,
+            "arrivalTime": "2024-01-01T07:05:00Z",
+            "departureTime": "2024-01-01T07:10:00Z"
+        }
+    ]
+}
+,{
+    "name": "33",
+    "price": 40,
+    "type": "BUS",
+    "lineNumber": "33",
+    "capacity": 400,
+    "schedules": [
+        {
+            "station": "Alger-Centre (Place Maurice Audin, faculté d'Alger, tunnel des Facultés, cathédrale du Sacré-Cœur)",
+            "latitude": 36.7468,
+            "longitude": 3.0861,
+            "arrivalTime": "2024-01-01T06:00:00Z",
+            "departureTime": "2024-01-01T06:05:00Z"
+        },
+        {
+            "station": "Sidi M'Hamed (Musée du Bardo, Palais du Peuple)",
+            "latitude": 36.7560,
+            "longitude": 3.0605,
+            "arrivalTime": "2024-01-01T06:15:00Z",
+            "departureTime": "2024-01-01T06:20:00Z"
+        },
+        {
+            "station": "El Mouradia (Hôtel El Djazaïr)",
+            "latitude": 36.7514,
+            "longitude": 3.0540,
+            "arrivalTime": "2024-01-01T06:30:00Z",
+            "departureTime": "2024-01-01T06:35:00Z"
+        },
+        {
+            "station": "Bir Mourad Raïs",
+            "latitude": 36.7446,
+            "longitude": 3.1363,
+            "arrivalTime": "2024-01-01T06:45:00Z",
+            "departureTime": "2024-01-01T06:50:00Z"
+        },
+        {
+            "station": "Kouba (Station Kouba)",
+            "latitude": 36.7467,
+            "longitude": 3.0800,
+            "arrivalTime": "2024-01-01T07:00:00Z",
+            "departureTime": "2024-01-01T07:05:00Z"
+        },
+        {
+            "station": "Khelifa Boukhalfa (à proximité)",
+            "latitude": 36.7535,
+            "longitude": 3.0710,
+            "arrivalTime": "2024-01-01T07:10:00Z",
+            "departureTime": "2024-01-01T07:15:00Z"
+        }
+    ]
+}
+,
+{
+    "name": "34",
+    "price": 40,
+    "type": "BUS",
+    "lineNumber": "34",
+    "capacity": 400,
+    "schedules": [
+        {
+            "station": "Sidi M'Hamed",
+            "latitude": 36.7560,
+            "longitude": 3.0605,
+            "arrivalTime": "2024-01-01T06:00:00Z",
+            "departureTime": "2024-01-01T06:05:00Z"
+        },
+        {
+            "station": "Belouizdad (Jardin d'Essai)",
+            "latitude": 36.7580,
+            "longitude": 3.0580,
+            "arrivalTime": "2024-01-01T06:10:00Z",
+            "departureTime": "2024-01-01T06:15:00Z"
+        },
+        {
+            "station": "El Madania",
+            "latitude": 36.7505,
+            "longitude": 3.0612,
+            "arrivalTime": "2024-01-01T06:20:00Z",
+            "departureTime": "2024-01-01T06:25:00Z"
+        },
+        {
+            "station": "Bir Mourad Raïs",
+            "latitude": 36.7446,
+            "longitude": 3.1363,
+            "arrivalTime": "2024-01-01T06:30:00Z",
+            "departureTime": "2024-01-01T06:35:00Z"
+        },
+        {
+            "station": "Birkhadem",
+            "latitude": 36.7375,
+            "longitude": 3.0527,
+            "arrivalTime": "2024-01-01T06:40:00Z",
+            "departureTime": "2024-01-01T06:45:00Z"
+        },
+        {
+            "station": "1er Mai",
+            "latitude": 36.7571,
+            "longitude": 3.0674,
+            "arrivalTime": "2024-01-01T06:50:00Z",
+            "departureTime": "2024-01-01T06:55:00Z"
+        },
+        {
+            "station": "Place Aïssat Idir (à proximité)",
+            "latitude": 36.7472,
+            "longitude": 3.0670,
+            "arrivalTime": "2024-01-01T07:00:00Z",
+            "departureTime": "2024-01-01T07:05:00Z"
+        },
+        {
+            "station": "Hamma",
+            "latitude": 36.7436,
+            "longitude": 3.0713,
+            "arrivalTime": "2024-01-01T07:10:00Z",
+            "departureTime": "2024-01-01T07:15:00Z"
+        },
+        {
+            "station": "Jardin d'Essai",
+            "latitude": 36.7553,
+            "longitude": 3.0741,
+            "arrivalTime": "2024-01-01T07:20:00Z",
+            "departureTime": "2024-01-01T07:25:00Z"
+        },
+        {
+            "station": "Les Fusillés",
+            "latitude": 36.7400,
+            "longitude": 3.0715,
+            "arrivalTime": "2024-01-01T07:30:00Z",
+            "departureTime": "2024-01-01T07:35:00Z"
+        },
+        {
+            "station": "Gare des Ateliers (à proximité)",
+            "latitude": 36.7360,
+            "longitude": 3.0600,
+            "arrivalTime": "2024-01-01T07:40:00Z",
+            "departureTime": "2024-01-01T07:45:00Z"
+        },
+        {
+            "station": "Téléphérique d'El Madania (station Hamma)",
+            "latitude": 36.7449,
+            "longitude": 3.0715,
+            "arrivalTime": "2024-01-01T07:50:00Z",
+            "departureTime": "2024-01-01T07:55:00Z"
+        },
+        {
+            "station": "Téléphérique du Mémorial (station Jardin d'Essai)",
+            "latitude": 36.7555,
+            "longitude": 3.0765,
+            "arrivalTime": "2024-01-01T08:00:00Z",
+            "departureTime": "2024-01-01T08:05:00Z"
+        },
+        {
+            "station": "Téléphérique du Palais de la Culture (station Oued Kniss)",
+            "latitude": 36.7422,
+            "longitude": 3.0650,
+            "arrivalTime": "2024-01-01T08:10:00Z",
+            "departureTime": "2024-01-01T08:15:00Z"
+        }
+    ]
+}
+,{
+    "name": "35",
+    "price": 40,
+    "type": "BUS",
+    "lineNumber": "35",
+    "capacity": 400,
+    "schedules": [
+        {
+            "station": "Sidi M'Hamed",
+            "latitude": 36.7560,
+            "longitude": 3.0605,
+            "arrivalTime": "2024-01-01T06:00:00Z",
+            "departureTime": "2024-01-01T06:05:00Z"
+        },
+        {
+            "station": "Belouizdad (Jardin d'Essai)",
+            "latitude": 36.7580,
+            "longitude": 3.0580,
+            "arrivalTime": "2024-01-01T06:10:00Z",
+            "departureTime": "2024-01-01T06:15:00Z"
+        },
+        {
+            "station": "El Madania",
+            "latitude": 36.7505,
+            "longitude": 3.0612,
+            "arrivalTime": "2024-01-01T06:20:00Z",
+            "departureTime": "2024-01-01T06:25:00Z"
+        },
+        {
+            "station": "Bir Mourad Raïs",
+            "latitude": 36.7446,
+            "longitude": 3.1363,
+            "arrivalTime": "2024-01-01T06:30:00Z",
+            "departureTime": "2024-01-01T06:35:00Z"
+        },
+        {
+            "station": "Birkhadem",
+            "latitude": 36.7375,
+            "longitude": 3.0527,
+            "arrivalTime": "2024-01-01T06:40:00Z",
+            "departureTime": "2024-01-01T06:45:00Z"
+        },
+        {
+            "station": "1er Mai",
+            "latitude": 36.7571,
+            "longitude": 3.0674,
+            "arrivalTime": "2024-01-01T06:50:00Z",
+            "departureTime": "2024-01-01T06:55:00Z"
+        },
+        {
+            "station": "Place Aïssat Idir (à proximité)",
+            "latitude": 36.7472,
+            "longitude": 3.0670,
+            "arrivalTime": "2024-01-01T07:00:00Z",
+            "departureTime": "2024-01-01T07:05:00Z"
+        },
+        {
+            "station": "Hamma",
+            "latitude": 36.7436,
+            "longitude": 3.0713,
+            "arrivalTime": "2024-01-01T07:10:00Z",
+            "departureTime": "2024-01-01T07:15:00Z"
+        },
+        {
+            "station": "Jardin d'Essai",
+            "latitude": 36.7553,
+            "longitude": 3.0741,
+            "arrivalTime": "2024-01-01T07:20:00Z",
+            "departureTime": "2024-01-01T07:25:00Z"
+        },
+        {
+            "station": "Les Fusillés",
+            "latitude": 36.7400,
+            "longitude": 3.0715,
+            "arrivalTime": "2024-01-01T07:30:00Z",
+            "departureTime": "2024-01-01T07:35:00Z"
+        },
+        {
+            "station": "Gare des Ateliers (à proximité)",
+            "latitude": 36.7360,
+            "longitude": 3.0600,
+            "arrivalTime": "2024-01-01T07:40:00Z",
+            "departureTime": "2024-01-01T07:45:00Z"
+        },
+        {
+            "station": "Téléphérique d'El Madania (station Hamma)",
+            "latitude": 36.7449,
+            "longitude": 3.0715,
+            "arrivalTime": "2024-01-01T07:50:00Z",
+            "departureTime": "2024-01-01T07:55:00Z"
+        },
+        {
+            "station": "Téléphérique du Mémorial (station Jardin d'Essai)",
+            "latitude": 36.7555,
+            "longitude": 3.0765,
+            "arrivalTime": "2024-01-01T08:00:00Z",
+            "departureTime": "2024-01-01T08:05:00Z"
+        },
+        {
+            "station": "Téléphérique du Palais de la Culture (station Oued Kniss)",
+            "latitude": 36.7422,
+            "longitude": 3.0650,
+            "arrivalTime": "2024-01-01T08:10:00Z",
+            "departureTime": "2024-01-01T08:15:00Z"
+        }
+    ]
+}
+,
+{
+    "name": "36",
+    "price": 40,
+    "type": "BUS",
+    "lineNumber": "36",
+    "capacity": 400,
+    "schedules": [
+        {
+            "station": "Bab El Oued (Basta Ali)",
+            "latitude": 36.7452,
+            "longitude": 3.0625,
+            "arrivalTime": "2024-01-01T06:00:00Z",
+            "departureTime": "2024-01-01T06:05:00Z"
+        },
+        {
+            "station": "Sidi M'Hamed (Palais du Peuple)",
+            "latitude": 36.7565,
+            "longitude": 3.0580,
+            "arrivalTime": "2024-01-01T06:10:00Z",
+            "departureTime": "2024-01-01T06:15:00Z"
+        }
+    ]
+}
+,
+{
+    "name": "37",
+    "price": 40,
+    "type": "BUS",
+    "lineNumber": "37",
+    "capacity": 400,
+    "schedules": [
+        {
+            "station": "Alger-Centre (Grande Poste)",
+            "latitude": 36.7538,
+            "longitude": 3.0585,
+            "arrivalTime": "2024-01-01T06:00:00Z",
+            "departureTime": "2024-01-01T06:05:00Z"
+        },
+        {
+            "station": "Oued Koriche",
+            "latitude": 36.7486,
+            "longitude": 3.0729,
+            "arrivalTime": "2024-01-01T06:10:00Z",
+            "departureTime": "2024-01-01T06:15:00Z"
+        }
+    ]
+}
+,
+{
+    "name": "39",
+    "price": 40,
+    "type": "BUS",
+    "lineNumber": "39",
+    "capacity": 400,
+    "schedules": [
+        {
+            "station": "Alger-Centre (Place Maurice Audin, faculté d'Alger, tunnel des Facultés)",
+            "latitude": 36.7538,
+            "longitude": 3.0585,
+            "arrivalTime": "2024-01-01T06:00:00Z",
+            "departureTime": "2024-01-01T06:05:00Z"
+        },
+        {
+            "station": "Bab Ezzouar",
+            "latitude": 36.7320,
+            "longitude": 3.1075,
+            "arrivalTime": "2024-01-01T06:15:00Z",
+            "departureTime": "2024-01-01T06:20:00Z"
+        },
+        {
+            "station": "Dar El Beïda (aéroport d'Alger)",
+            "latitude": 36.6813,
+            "longitude": 3.2210,
+            "arrivalTime": "2024-01-01T06:30:00Z",
+            "departureTime": "2024-01-01T06:35:00Z"
+        }
+    ]
+}
+,
+{
+    "name": "40",
+    "price": 40,
+    "type": "BUS",
+    "lineNumber": "40",
+    "capacity": 400,
+    "schedules": [
+        {
+            "station": "Alger-Centre (Place Maurice Audin, faculté d'Alger, tunnel des Facultés, cathédrale du Sacré-Cœur)",
+            "latitude": 36.7538,
+            "longitude": 3.0585,
+            "arrivalTime": "2024-01-01T06:00:00Z",
+            "departureTime": "2024-01-01T06:05:00Z"
+        },
+        {
+            "station": "Sidi M'Hamed (Musée du Bardo, Palais du Peuple)",
+            "latitude": 36.7551,
+            "longitude": 3.0572,
+            "arrivalTime": "2024-01-01T06:15:00Z",
+            "departureTime": "2024-01-01T06:20:00Z"
+        },
+        {
+            "station": "El Mouradia (Hôtel El Djazaïr)",
+            "latitude": 36.7403,
+            "longitude": 3.0843,
+            "arrivalTime": "2024-01-01T06:30:00Z",
+            "departureTime": "2024-01-01T06:35:00Z"
+        },
+        {
+            "station": "El Biar",
+            "latitude": 36.7432,
+            "longitude": 3.0695,
+            "arrivalTime": "2024-01-01T06:45:00Z",
+            "departureTime": "2024-01-01T06:50:00Z"
+        },
+        {
+            "station": "Bouzaréah (Chevalley)",
+            "latitude": 36.7401,
+            "longitude": 3.0705,
+            "arrivalTime": "2024-01-01T07:00:00Z",
+            "departureTime": "2024-01-01T07:05:00Z"
+        }
+    ]
+}
+,
+{
+    "name": "43",
+    "price": 40,
+    "type": "BUS",
+    "lineNumber": "43",
+    "capacity": 400,
+    "schedules": [
+        {
+            "station": "Ben Aknoun",
+            "latitude": 36.7445,
+            "longitude": 3.0633,
+            "arrivalTime": "2024-01-01T06:00:00Z",
+            "departureTime": "2024-01-01T06:05:00Z"
+        },
+        {
+            "station": "El Biar",
+            "latitude": 36.7432,
+            "longitude": 3.0695,
+            "arrivalTime": "2024-01-01T06:15:00Z",
+            "departureTime": "2024-01-01T06:20:00Z"
+        },
+        {
+            "station": "Alger-Centre (Grande Poste d'Alger)",
+            "latitude": 36.7538,
+            "longitude": 3.0585,
+            "arrivalTime": "2024-01-01T06:30:00Z",
+            "departureTime": "2024-01-01T06:35:00Z"
+        }
+    ]
+}
+,
+{
+    "name": "44",
+    "price": 40,
+    "type": "BUS",
+    "lineNumber": "44",
+    "capacity": 400,
+    "schedules": [
+        {
+            "station": "Ben Aknoun",
+            "latitude": 36.7445,
+            "longitude": 3.0633,
+            "arrivalTime": "2024-01-01T06:00:00Z",
+            "departureTime": "2024-01-01T06:05:00Z"
+        },
+        {
+            "station": "Dely Ibrahim",
+            "latitude": 36.7462,
+            "longitude": 2.9515,
+            "arrivalTime": "2024-01-01T06:15:00Z",
+            "departureTime": "2024-01-01T06:20:00Z"
+        },
+        {
+            "station": "El Achour",
+            "latitude": 36.7295,
+            "longitude": 3.0702,
+            "arrivalTime": "2024-01-01T06:30:00Z",
+            "departureTime": "2024-01-01T06:35:00Z"
+        },
+        {
+            "station": "Draria",
+            "latitude": 36.7184,
+            "longitude": 2.9560,
+            "arrivalTime": "2024-01-01T06:45:00Z",
+            "departureTime": "2024-01-01T06:50:00Z"
+        },
+        {
+            "station": "Baba Hassen",
+            "latitude": 36.7015,
+            "longitude": 2.9812,
+            "arrivalTime": "2024-01-01T07:00:00Z",
+            "departureTime": "2024-01-01T07:05:00Z"
+        },
+        {
+            "station": "Douera",
+            "latitude": 36.6723,
+            "longitude": 2.9456,
+            "arrivalTime": "2024-01-01T07:15:00Z",
+            "departureTime": "2024-01-01T07:20:00Z"
+        }
+    ]
+}
+,
+{
+    "name": "45",
+    "price": 40,
+    "type": "BUS",
+    "lineNumber": "45",
+    "capacity": 400,
+    "schedules": [
+        {
+            "station": "Casbah (Place des Martyrs)",
+            "latitude": 36.7547,
+            "longitude": 3.0582,
+            "arrivalTime": "2024-01-01T06:00:00Z",
+            "departureTime": "2024-01-01T06:05:00Z"
+        },
+        {
+            "station": "Alger-Centre",
+            "latitude": 36.7528,
+            "longitude": 3.0585,
+            "arrivalTime": "2024-01-01T06:15:00Z",
+            "departureTime": "2024-01-01T06:20:00Z"
+        },
+        {
+            "station": "El Biar",
+            "latitude": 36.7256,
+            "longitude": 3.0694,
+            "arrivalTime": "2024-01-01T06:30:00Z",
+            "departureTime": "2024-01-01T06:35:00Z"
+        },
+        {
+            "station": "Bouzaréah",
+            "latitude": 36.7285,
+            "longitude": 3.0652,
+            "arrivalTime": "2024-01-01T06:45:00Z",
+            "departureTime": "2024-01-01T06:50:00Z"
+        }
+    ]
+}
+,
+{
+    "name": "48",
+    "price": 40,
+    "type": "BUS",
+    "lineNumber": "48",
+    "capacity": 400,
+    "schedules": [
+        {
+            "station": "Sidi M'Hamed",
+            "latitude": 36.7551,
+            "longitude": 3.0572,
+            "arrivalTime": "2024-01-01T06:00:00Z",
+            "departureTime": "2024-01-01T06:05:00Z"
+        },
+        {
+            "station": "Alger-Centre",
+            "latitude": 36.7528,
+            "longitude": 3.0585,
+            "arrivalTime": "2024-01-01T06:15:00Z",
+            "departureTime": "2024-01-01T06:20:00Z"
+        },
+        {
+            "station": "El Biar",
+            "latitude": 36.7256,
+            "longitude": 3.0694,
+            "arrivalTime": "2024-01-01T06:30:00Z",
+            "departureTime": "2024-01-01T06:35:00Z"
+        },
+        {
+            "station": "Ben Aknoun",
+            "latitude": 36.7247,
+            "longitude": 3.0102,
+            "arrivalTime": "2024-01-01T06:45:00Z",
+            "departureTime": "2024-01-01T06:50:00Z"
+        }
+    ]
+}
+,   
+{
+    "name": "50",
+    "price": 40,
+    "type": "BUS",
+    "lineNumber": "50",
+    "capacity": 400,
+    "schedules": [
+        {
+            "station": "Ben Aknoun",
+            "latitude": 36.7247,
+            "longitude": 3.0102,
+            "arrivalTime": "2024-01-01T06:00:00Z",
+            "departureTime": "2024-01-01T06:05:00Z"
+        },
+        {
+            "station": "El Biar",
+            "latitude": 36.7256,
+            "longitude": 3.0694,
+            "arrivalTime": "2024-01-01T06:15:00Z",
+            "departureTime": "2024-01-01T06:20:00Z"
+        },
+        {
+            "station": "Bab El Oued",
+            "latitude": 36.7500,
+            "longitude": 3.0685,
+            "arrivalTime": "2024-01-01T06:30:00Z",
+            "departureTime": "2024-01-01T06:35:00Z"
+        },
+        {
+            "station": "Casbah (Place des Martyrs)",
+            "latitude": 36.7645,
+            "longitude": 3.0600,
+            "arrivalTime": "2024-01-01T06:45:00Z",
+            "departureTime": "2024-01-01T06:50:00Z"
+        }
+    ]
+}
 ]

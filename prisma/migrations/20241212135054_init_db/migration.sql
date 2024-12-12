@@ -58,6 +58,7 @@ CREATE TABLE `RouteSegment` (
 CREATE TABLE `Suggest` (
     `id` INTEGER NOT NULL AUTO_INCREMENT,
     `scheduleId` INTEGER NOT NULL,
+    `step` INTEGER NOT NULL DEFAULT 0,
     `routeSegementId` INTEGER NOT NULL,
     `createdAt` DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
     `updatedAt` DATETIME(3) NOT NULL,
